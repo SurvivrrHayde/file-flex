@@ -9,7 +9,7 @@ INCLUDES = -I/usr/include/openssl
 SRCDIR = src
 INCDIR = include
 BUILDDIR = build
-TARGET = bin/cross_platform_fs_utility
+TARGET = bin/file_flex
 
 # Files
 SRCFILES = $(wildcard $(SRCDIR)/*.cpp)
