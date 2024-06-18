@@ -1,24 +1,18 @@
-# Compiler and flags
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Iinclude
 
-# Include OpenSSL headers
 INCLUDES = -I/usr/include/openssl
 
-# Directories
 SRCDIR = src
 INCDIR = include
 BUILDDIR = build
-TARGET = bin/cross_platform_fs_utility
+TARGET = bin/file_flex
 
-# Files
 SRCFILES = $(wildcard $(SRCDIR)/*.cpp)
 OBJFILES = $(patsubst $(SRCDIR)/%.cpp, $(BUILDDIR)/%.o, $(SRCFILES))
 
-# Linker flags
 LDFLAGS = -lssl -lcrypto
 
-# Rules
 all: $(TARGET)
 
 $(TARGET): $(OBJFILES)

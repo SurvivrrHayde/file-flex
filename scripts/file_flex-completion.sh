@@ -1,6 +1,6 @@
 # Bash completion script for the cross_platform_fs_utility
 
-_cross_platform_fs_utility() {
+_file_flex() {
     local cur prev commands
     COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
@@ -24,4 +24,4 @@ _cross_platform_fs_utility() {
     return 0
 }
 
-complete -F _cross_platform_fs_utility cross_platform_fs_utility
+complete -F _file_flex file_flex
