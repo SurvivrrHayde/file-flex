@@ -1,5 +1,3 @@
-# Bash completion script for the cross_platform_fs_utility
-
 _file_flex() {
     local cur prev commands
     COMPREPLY=()

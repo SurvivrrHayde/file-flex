@@ -6,7 +6,7 @@ INCLUDES = -I/usr/include/openssl
 SRCDIR = src
 INCDIR = include
 BUILDDIR = build
-TARGET = bin/file_flex
+TARGET = bin/file-flex
 
 SRCFILES = $(wildcard $(SRCDIR)/*.cpp)
 OBJFILES = $(patsubst $(SRCDIR)/%.cpp, $(BUILDDIR)/%.o, $(SRCFILES))
