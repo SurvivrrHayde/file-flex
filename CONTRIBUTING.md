@@ -12,7 +12,7 @@ Thank you for your interest in contributing to File Flex. I value your contribut
 ## Setting Up Your Environment
 
 1. **Fork the Repository**
-   - Navigate to the [File Flex GitHub repository](https://github.com/yourusername/file-flex).
+   - Navigate to the [File Flex GitHub repository](https://github.com/SurvivrrHayde/file-flex).
    - In the top-right corner of the page, click the _Fork_ button. This creates a copy of the repository in your GitHub account.
 
 2. **Clone Your Fork**
@@ -30,7 +30,7 @@ Thank you for your interest in contributing to File Flex. I value your contribut
 3. **Add the Original Repository as a Remote (Upstream)**
    - To keep your fork up to date with the original repository, add it as a remote:
      ```bash
-     git remote add upstream https://github.com/originalusername/file-flex.git
+     git remote add upstream https://github.com/SurvivrrHayde/file-flex.git
      ```
    - Verify the new remote named _upstream_:
      ```bash
@@ -73,10 +73,10 @@ Thank you for your interest in contributing to File Flex. I value your contribut
 
 ## Review Process
 
-- Once submitted, the maintainers of File Flex will review your pull request.
+- Once submitted, I will review your pull request.
 - Engage in discussions if there are comments or questions.
 - If changes are requested, make them in your branch, re-push, and the pull request will automatically update.
-- If your pull request is approved, a maintainer will merge it.
+- If your pull request is approved, I will merge it.
 
 ## Additional Guidelines
 
