@@ -1,0 +1,16 @@
+# Ignore all binaries
+bin/
+
+# Ignore build artifacts
+*.o
+*.so
+*.a
+*.exe
+
+# Ignore packaged archives
+*.tar.gz
+
+# Ignore logs and databases
+*.log
+*.sql
+*.db
