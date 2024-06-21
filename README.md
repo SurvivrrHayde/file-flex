@@ -2,7 +2,7 @@
 
 ## About
 
-File-Flex is a cross-platform tool designed to simplify file system operations, making it easy for users to manage files and directories.
+File-Flex is a cross-platform tool designed to simplify file system operations, making it easy for users to manage files and directories from their command line.
 ## Installation
 ### macOS
 To install File-Flex using Homebrew, run the following commands:
