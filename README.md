@@ -2,8 +2,7 @@
 
 ## About
 
-Description: "File-Flex is a cross-platform tool designed to simplify file system operations, making it easy for users to manage files and directories."
-Purpose: Explain what your application does, the problems it solves, and why it might be useful.
+File-Flex is a cross-platform tool designed to simplify file system operations, making it easy for users to manage files and directories.
 ## Key Features
 
 List main features such as batch file renaming, directory synchronization, secure file deletion.
