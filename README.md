@@ -3,9 +3,6 @@
 ## About
 
 File-Flex is a cross-platform tool designed to simplify file system operations, making it easy for users to manage files and directories.
-## Key Features
-
-List main features such as batch file renaming, directory synchronization, secure file deletion.
 ## Installation
 ### macOS
 To install File-Flex using Homebrew, run the following commands:
@@ -92,6 +89,10 @@ Not available at the moment.
   - `calculate_directory_size`: Calculates the total size of the current directory.
 
 ### Encryption and Decryption
+***Parameters***:
+- `<inputFile>`: The path to the file that needs to be encrypted.
+- `<outputFile>`: The path where the encrypted file will be saved.
+- `<key>`: A secret key used for the encryption. This key should be exactly 32 bytes long (256 bits) and must be kept secure.
 
 #### Encrypt File
 - **Usage**:
@@ -103,7 +104,7 @@ Not available at the moment.
 
 ## Contributing
 
-Thank you for your interest in contributing to File-Flex. I value your contributions and want to make sure that the process is as easy and transparent as possible. Whether you're reporting a bug, suggesting an enhancement, or submitting a pull request. 
+Thank you for your interest in contributing to File-Flex. I value your contributions and want to make sure that the process is as easy and transparent as possible. Whether you're reporting a bug, suggesting an enhancement, or submitting a pull request. Please refer to my [contributing guide](https://github.com/SurvivrrHayde/file-flex/blob/main/CONTRIBUTING.md).
 ## Feedback and Community
 
 At the moment there is not much of a community! But, feel free to contact me at wsd6vn@virgina.edu
